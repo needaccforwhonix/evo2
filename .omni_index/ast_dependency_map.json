@@ -1,0 +1,599 @@
+[
+  {
+    "file": "NOTICE",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "Dockerfile",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "AUTHORS",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "pyproject.toml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "README.md",
+    "dependencies": [
+      "requests",
+      "torch",
+      "Path",
+      "evo2",
+      "json",
+      "os",
+      "pathlib",
+      "Evo2"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "LICENSE",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "evo2/__init__.py",
+    "dependencies": [
+      ".models",
+      "Evo2"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "evo2/version.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "evo2/scoring.py",
+    "dependencies": [
+      "torch",
+      "List",
+      "Seq",
+      "tqdm",
+      "StripedHyena",
+      "vortex.model.model",
+      "numpy",
+      "typing",
+      "Bio.Seq"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "evo2/models.py",
+    "dependencies": [
+      "generate",
+      "evo2.scoring",
+      "dotdict",
+      "StripedHyena",
+      "snapshot_download",
+      "CharLevelTokenizer",
+      "pkgutil",
+      "List",
+      "vortex.model.tokenizer",
+      "warnings",
+      "partial",
+      "huggingface_hub",
+      "vortex.model.utils",
+      "typing",
+      "vortex.model.generation",
+      "os",
+      "vortex.model.model",
+      "yaml",
+      "torch",
+      "MODEL_NAMES",
+      "score_sequences",
+      "functools",
+      "evo2.utils",
+      "transformer_engine"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "evo2/utils.py",
+    "dependencies": [
+      "requests"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "evo2/test/test_model_load.py",
+    "dependencies": [
+      "evo2_model",
+      "evo2.models"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "evo2/test/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "evo2/test/test_evo2_generation.py",
+    "dependencies": [
+      "importlib",
+      "torch",
+      "List",
+      "Path",
+      "resources",
+      "evo2",
+      "argparse",
+      "csv",
+      "pathlib",
+      "Evo2",
+      "numpy",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "evo2/test/test_evo2.py",
+    "dependencies": [
+      "importlib",
+      "torch",
+      "List",
+      "resources",
+      "Path",
+      "evo2",
+      "argparse",
+      "csv",
+      "pathlib",
+      "Evo2",
+      "numpy",
+      "typing",
+      "torch.nn.functional"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "evo2/test/data/prompts.csv",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "evo2/configs/evo2-7b-1m.yml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "evo2/configs/evo2-1b-8k.yml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "evo2/configs/evo2-40b-8k.yml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "evo2/configs/evo2-20b-1m.yml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "evo2/configs/evo2-40b-1m.yml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "evo2/configs/evo2-7b-8k.yml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "evo2/configs/evo2-7b-262k.yml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "notebooks/exon_classifier/samplePositions.tsv",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "notebooks/exon_classifier/exon_classifier.ipynb",
+    "dependencies": [
+      "pandas",
+      "AutoModel",
+      "roc_auc_score",
+      "torch",
+      "sklearn.metrics",
+      "matplotlib.pyplot",
+      "evo2",
+      "tqdm",
+      "transformers",
+      "Evo2",
+      "numpy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "notebooks/brca1/brca1_zero_shot_vep.ipynb",
+    "dependencies": [
+      "pandas",
+      "roc_auc_score",
+      "evo2.models",
+      "sklearn.metrics",
+      "seaborn",
+      "matplotlib.pyplot",
+      "os",
+      "Evo2",
+      "numpy",
+      "Bio",
+      "SeqIO",
+      "gzip"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "notebooks/sparse_autoencoder/sparse_autoencoder.ipynb",
+    "dependencies": [
+      "prod",
+      "torch",
+      "List",
+      "matplotlib.pyplot",
+      "evo2",
+      "hf_hub_download",
+      "tqdm",
+      "math",
+      ".autonotebook",
+      "Evo2",
+      "huggingface_hub",
+      "Bio",
+      "SeqIO",
+      "typing",
+      "tqdm.notebook"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "notebooks/sparse_autoencoder/NC_000913.gb",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "notebooks/generation/generation_notebook.ipynb",
+    "dependencies": [
+      "pairwise2",
+      "Seq",
+      "pathlib",
+      "Bio.Seq",
+      "List",
+      "evo2",
+      "format_alignment",
+      "Bio",
+      "typing",
+      "argparse",
+      "os",
+      "csv",
+      "Evo2",
+      "torch",
+      "make_phylotag_from_gbif",
+      "Path",
+      "Bio.pairwise2",
+      "numpy",
+      "evo2.utils",
+      "our",
+      "torch.nn.functional"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "phage_gen/README.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "phage_gen/analysis/genome_gibson_assembly.py",
+    "dependencies": [
+      "pandas",
+      "Bio.SeqUtils",
+      "List",
+      "Seq",
+      "MeltingTemp",
+      "typing",
+      "Bio.Seq"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "phage_gen/analysis/genome_annotator.py",
+    "dependencies": [
+      "time",
+      "concurrent.futures",
+      "Seq",
+      "Bio.SeqRecord",
+      "pathlib",
+      "shutil",
+      "Bio.Seq",
+      "pandas",
+      "SeqFeature",
+      "Bio",
+      "re",
+      "tempfile",
+      "os",
+      "argparse",
+      "SeqIO",
+      "sys",
+      "Bio.SeqFeature",
+      "Path",
+      "numpy",
+      "subprocess",
+      "SeqRecord"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "phage_gen/analysis/competition_analysis.py",
+    "dependencies": [
+      "matplotlib",
+      "PairwiseAligner",
+      "pandas",
+      "defaultdict",
+      "Bio.Align",
+      "seaborn",
+      "matplotlib.pyplot",
+      "collections",
+      "argparse",
+      "os",
+      "csv",
+      "numpy",
+      "Bio",
+      "SeqIO",
+      "subprocess",
+      "pysam"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "phage_gen/analysis/mutation_type_analysis.py",
+    "dependencies": [
+      "Bio.Blast",
+      "time",
+      "logging",
+      "Seq",
+      "collections",
+      "Bio.SeqRecord",
+      "pathlib",
+      "NCBIXML",
+      "Bio.Seq",
+      "Entrez",
+      "Bio",
+      "re",
+      "tempfile",
+      "argparse",
+      "csv",
+      "sys",
+      "defaultdict",
+      "Path",
+      "subprocess",
+      "SeqRecord"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "phage_gen/analysis/shannon_diversity_analysis.sh",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "phage_gen/environments/genome_visualization.yaml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "phage_gen/environments/genome_annotator.yaml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "phage_gen/environments/competition_analysis.yaml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "phage_gen/environments/genome_design.yaml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "phage_gen/data/phage_sft_genomes_phix174_variants.fna",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "phage_gen/data/wichman2005_lt180_genomes.fasta",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "phage_gen/data/NC_001422.1_pseudocircular.gff",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "phage_gen/data/rokyta2006_phix174like_genomes.fasta",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "phage_gen/data/NC_001422_1.fna",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "phage_gen/data/nonviable_generated_phage_genomes.fasta",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "phage_gen/data/NC_001422.1_Gprotein.fasta",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "phage_gen/data/viable_generated_phage_genomes.fasta",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "phage_gen/data/all_generated_phages.fasta",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "phage_gen/pipelines/genome_design_filtering_pipeline_config_template.yaml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "phage_gen/pipelines/genome_design_filtering_pipeline.sh",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "phage_gen/pipelines/genetic_architecture_visualization.py",
+    "dependencies": [
+      "sys",
+      "concurrent.futures",
+      "time",
+      "uuid",
+      "subprocess",
+      "itertools",
+      "Path",
+      "tempfile",
+      "json",
+      "os",
+      "csv",
+      "pathlib",
+      "shutil",
+      "multiprocessing",
+      "yaml"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "phage_gen/pipelines/genome_design_filtering_pipeline.py",
+    "dependencies": [
+      "time",
+      "Seq",
+      "collections",
+      "json",
+      "Bio.SeqRecord",
+      "pathlib",
+      "shutil",
+      "genetic_architecture",
+      "chain",
+      "Bio.Seq",
+      "pandas",
+      "List",
+      "Counter",
+      "biotite.sequence",
+      "Bio",
+      "typing",
+      "re",
+      "uuid",
+      "joblib",
+      "itertools",
+      "tempfile",
+      "os",
+      "glob",
+      "csv",
+      "SeqIO",
+      "yaml",
+      "sys",
+      "FeatureLocation",
+      "defaultdict",
+      "Bio.SeqFeature",
+      "Path",
+      "biotite.sequence.io.fasta",
+      "biotite.sequence.align",
+      "Parallel",
+      "numpy",
+      "subprocess",
+      "SeqRecord"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "phage_gen/pipelines/genetic_architecture.py",
+    "dependencies": [
+      "joblib",
+      "defaultdict",
+      "gaussian_filter1d",
+      "Seq",
+      "collections",
+      "Counter",
+      "scipy.ndimage",
+      "Bio.SeqRecord",
+      "Parallel",
+      "numpy",
+      "Bio",
+      "SeqIO",
+      "SeqRecord",
+      "Bio.Seq"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  }
+]
